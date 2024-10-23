@@ -1,0 +1,10 @@
+# Analytics para Streaming
+
+Este projeto coleta e analisa dados de visualização de vídeos. Ele usa Go, Prometheus e Nginx para expor métricas e relatórios.
+
+## Como rodar
+
+1. Clone o repositório.
+2. Execute `docker-compose up --build`.
+3. Acesse `http://localhost:80` para acessar o servidor.
+4. Acesse `http://localhost:9090` para acessar o Prometheus.
